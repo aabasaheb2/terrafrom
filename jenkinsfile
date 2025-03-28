@@ -1,7 +1,7 @@
 #!/bin/bash
 set -xe
 
-cd 
+cd terrafrom
 
 sudo  terraform init
 sudo terraform plan
