@@ -1,0 +1,8 @@
+#!/bin/bash
+set -xe
+
+cd 
+
+sudo  terraform init
+sudo terraform plan
+sudo terraform $TERRAFORM_ACTION -auto-approve
